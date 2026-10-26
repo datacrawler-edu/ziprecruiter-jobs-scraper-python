@@ -1,0 +1,17 @@
+{
+  "keywords": [
+    "software engineer"
+  ],
+  "country": "usa",
+  "location": "New York, NY",
+  "distanceMiles": 50,
+  "maxItemsPerQuery": 3,
+  "maxTotalItems": 3,
+  "offset": 0,
+  "datePostedHours": 0,
+  "jobType": "any",
+  "remoteOnly": false,
+  "easyApplyOnly": false,
+  "descriptionFormat": "markdown",
+  "includeEmails": false
+}

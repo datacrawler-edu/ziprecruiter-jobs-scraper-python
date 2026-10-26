@@ -1,0 +1,27 @@
+[
+  {
+    "success": true,
+    "status": "success",
+    "source": "ziprecruiter",
+    "searchKeyword": "software engineer",
+    "searchCountry": "United States",
+    "searchLocation": "New York, NY",
+    "jobId": "zr-G3vfECa9V6qyBUxIMgfbLQ",
+    "jobUrl": "https://www.ziprecruiter.com/c/DataAnnotation/Job/Software-Engineer-AI-Trainer/-in-New-York,NY?jid=5d18c242de93f67e",
+    "title": "Software Engineer - AI Trainer",
+    "companyName": "DataAnnotation",
+    "locationDisplay": "New York, NY, United States",
+    "isRemote": true,
+    "jobTypes": [
+      "contract"
+    ],
+    "postedDate": "2026-09-22",
+    "compensation": {
+      "interval": "hourly",
+      "min_amount": 75,
+      "max_amount": 150,
+      "currency": "USD"
+    },
+    "scrapedAt": "2026-10-26T17:35:25.631761Z"
+  }
+]

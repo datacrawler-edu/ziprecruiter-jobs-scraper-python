@@ -1,0 +1,146 @@
+{
+  "repository": {
+    "name": "ziprecruiter-jobs-scraper-python",
+    "description": "ZipRecruiter jobs API examples in Python, JavaScript and cURL: search US and Canada jobs, combine keywords and export existing results to CSV.",
+    "homepage": "https://apify.com/datascraperes/ziprecruiter-jobs-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "ZipRecruiter Jobs Scraper",
+    "id": "datascraperes/ziprecruiter-jobs-scraper",
+    "storeUrl": "https://apify.com/datascraperes/ziprecruiter-jobs-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~ziprecruiter-jobs-scraper",
+    "description": "Search public US and Canada job listings by keyword and location, with available company and salary data."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/ziprecruiter-jobs-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "keywords",
+      "inputLabel": "Keywords",
+      "inputSummary": "Enter job titles or skills, choose usa or canada, and enter an optional city.",
+      "exportFormats": [
+        "JSON",
+        "CSV",
+        "Excel"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "ZipRecruiter jobs scraper Python",
+    "secondaryKeywords": [
+      "ZipRecruiter jobs API examples",
+      "ZipRecruiter jobs CSV export",
+      "US Canada job search Python"
+    ],
+    "topics": [
+      "ziprecruiter",
+      "jobs",
+      "job-search",
+      "apify",
+      "python",
+      "api-examples",
+      "csv-export"
+    ],
+    "longTailIntents": [
+      "Search ZipRecruiter jobs by keyword and city with Python",
+      "Combine several job keywords in one hosted run",
+      "Export an existing jobs Dataset to CSV without another collection"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/collect_jobs.py",
+      "examples/python/batch_searches.py",
+      "examples/python/export_jobs_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per delivered job event; no charge event for empty searches.",
+    "unit": "one delivered job",
+    "price": "$1.00 per 1,000 jobs on FREE; Bronze $0.90; Silver $0.80; Gold, Platinum and Diamond $0.75"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/ziprecruiter-jobs-scraper-python",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/ziprecruiter-jobs-scraper-python",
+    "githubToActorUrl": "https://apify.com/datascraperes/ziprecruiter-jobs-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "ZipRecruiter job search and CSV integration examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/ziprecruiter-jobs-scraper-python",
+      "ZipRecruiter jobs scraper Python"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/ziprecruiter-jobs-scraper-python/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/ziprecruiter-jobs-scraper?fpr=edudata"
+  }
+}
